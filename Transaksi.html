@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="pembayaran raconnection">
+    <link rel="icon" href="IMG/logofav.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="Transaksi.css">
+    <script>
+        var kirim = () => alert("Apa data diri anda sudah benar");
+    </script>
+    <title>Transaksi</title>
+</head>
+<body>
+    <header>
+		<a href="index.html">
+		<img src="IMG/logo.png" alt="logoku" style="width:110%;" >
+		</a>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a> 
+				</li>
+
+				<li>
+					<a href="produk.html">Produk</a>
+				</li>
+
+				<li>
+					<a href="Transaksi.html">Transaksi</a> 
+				</li>
+
+				<li>
+					<a href="Tentangkami.html">Tentang kami</a>
+				</li>
+
+				<li>
+					<a href="kontak.html">Kontak</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+    <section aria-label="Pelanggan">
+        <div id="Form%20Pelanggan" class="kotak" style="padding-bottom: 80px;">
+                <div class="kucing" >
+                <form name="form" method="post" action="output.php" >
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td><input class="jangkakuan" type="text" name="fnama" placeholder="    Nama Lengkap" required> <br></td>
+                        </tr>
+
+                        <tr>
+                            <td>E-Mail</td>
+                            <td><input class="jangkakuan" type="text" name="femail" placeholder="    ex : 1234@gmail.com" required> <br></td>
+                        </tr>
+
+                        <tr>
+                            <td>No Tlp</td>
+                            <td><input class="jangkakuan" type="number" name="Nomor Hp" placeholder="    ex : 08xxxxxxxxxx" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Paket internet<br>
+                                Pilihan
+                            </td>
+                            <td>
+                                <select class="jangkakuan" name="fprodi" required>
+                                    <option value="">pilih</option>
+                                    <option value="30">Speed 30 Mbps</option>
+                                    <option value="50">Speed 50 Mbps</option>
+                                    <option value="100">Speed 100 Mbps</option>
+                                    <option value="300">Speed 300 Mbps</option>
+                                    <option value="500">Speed 500 Mbps</option>
+                                    <option value="1G">Speed 1 Gbps</option>
+                            </select><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Profinsi
+                            </td>
+                            <td>
+                                <select class="jangkakuan" name="fprodi" required>
+                                    <option value="">pilih</option>
+                                    <option value="Jawa Barat">Jawa Barat</option>
+                                    <option value="Jawa Tengah">Jawa Tengah</option>
+                                    <option value="Jawa Timur">Jawa Timur</option>
+                                </select><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Profinsi
+                            </td>
+                            <td>
+                                <select class="jangkakuan" name="fprodi" required>
+                                    <option value="">pilih</option>
+                                    <option value="Semarang">Semarang</option>
+                                    <option value="Demak">Demak</option>
+                                    <option value="Kudus">Kudus</option>
+                                </select><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Kecamatan
+                            </td>
+                            <td>
+                                <select class="jangkakuan" name="fprodi" required>
+                                    <option value="">pilih</option>
+                                    <option value="Semarang">Kec. Semarang</option>
+                                    <option value="Demak">Kec. Demak</option>
+                                    <option value="Kudus">Kec. Kudus</option>
+                                </select><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input style="
+                                margin-top: 10px; 
+                                padding-top: 10px; 
+                                padding-bottom: 10px; 
+                                padding-left: 15px; 
+                                padding-right: 15px;"
+                                type="submit" onclick="kirim()" name="fsubmit" value="Kirim"><br>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr style="height: 5px; 
+            background-color: black;">
+        
+        <table>
+            <tr>
+                <td>
+                    <a href="https://instagram.com">
+                    <img src="IMG/instagram.png"
+                        alt="instagram"
+                        style= "width:70px;
+                        height:70px;
+                        margin-top: 0px;
+                        float: right;">
+                    </a>
+                </td>
+
+                <td>
+                    <a href="https://instagram.com" style="color: black; font-size: 1.5rem;">Instagram</a>
+                </td>
+
+                <td>
+                    <a href="https://facebook.com">
+                    <img src="IMG/facebook.png"
+                        alt="facebook" 
+                        style="width:50px;
+                        height:50px;
+                        margin-top: 10px; margin-left: 25px;
+                        float: right;">
+                    </a>
+                </td>
+
+                <td>
+                    <a href="https://facebook.com" style="color: black; font-size: 1.5rem;">facebook</a>
+                </td>
+
+                <td>
+                    <a href="https://twitter.com">
+                    <img src="IMG/twitter.png" 
+                        alt="twitter" 
+                        style="width:60px;
+                        width:60px;
+                        margin-top: 10px; margin-left: 25px;
+                        float: right;">
+                    </a>
+                </td>
+
+                <td>
+                    <a href="https://twitter.com" style="color: black; font-size: 1.5rem;">twitter</a>
+                </td>
+            </tr>
+        </table>
+
+    </footer>
+
+    
+</body>
+</html>
